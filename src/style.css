@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+
+
+.line{
+  @apply relative duration-500
+        after:content-[''] after:absolute after:-bottom-0.5 after:right-0
+         after:h-[2px] after:w-full after:bg-amber-900
+         after:origin-left after:scale-x-0 after:transition-transform after:duration-500
+         hover:after:scale-x-100 hover:after:origin-left;
+}
+
+.socicons{
+  @apply hover:scale-120 transition-transform ease-in-out duration-300
+}
+
+@layer utilities {
+    body,
+    html {
+        
+        --font-sans:
+       'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+       scroll-behavior: smooth;
+       overflow-y: auto;
+}
+}
