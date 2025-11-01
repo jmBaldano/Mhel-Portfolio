@@ -8,18 +8,16 @@ import Layout from "./layouts/Layout.vue";
   <div class="flex items-center justify-between pt-25 pl-10">
     <!-- Desc-->
     <div class="md:w-2/3 w-1/2 pl-0 md:pl-30">
-      <h1 class="text-6xl font-bold mb-4 text-amber-300">
+      <h1 class="text-6xl font-bold mb-4 text-[#B87C4C]">
         HI! <br />
         I'M
         <span
           class="font-serif text-amber-900 typing-text border-text-amber-900 overflow-hidden border-r-2 whitespace-nowrap"
-          >MHEL</span
+          >Melanie Baldano</span
         >
       </h1>
-      <p class="text-[#CD2C58] leading-relaxed font-bold whitespace-pre-wrap w-full">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, ea earum
-        quisquam molestiae harum architecto ut maxime sint quod error recusandae quo
-        similique in repellat, deserunt minima facilis magnam mollitia!
+      <p class="text-[#B87C4C] leading-relaxed font-sans whitespace-pre-wrap w-full text-3xl">
+        Your <strong>Admin</strong> &amp; <strong>HR Specialist</strong>
       </p>
     </div>
 
@@ -37,7 +35,7 @@ import Layout from "./layouts/Layout.vue";
       </div> -->
       <div class="absolute inset-0 flex items-center justify-center pt-100 pr-50">
         <img
-          src="./images/atedp2.png"
+          src="./images/wholebody.png"
           alt="Whole body pic"
           class="absolute w-auto h-[200px] transition-transform duration-500 ease-in-out hover:scale-200 hover:-rotate-6"
         />

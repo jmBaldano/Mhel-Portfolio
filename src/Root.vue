@@ -6,6 +6,7 @@ import About from './About.vue';
 <template>
     <main>
         <section id="Landing" class="min-h-screen bg-[#EDE8D0]"> <Landing /></section>
+        <section id="About" class="min-h-screen bg-[#EDE8D0]"> <About /></section>
         <section id="About" class="min-h-screen bg-[#FFE6D4]"> <About /></section>
     </main>
 </template>
