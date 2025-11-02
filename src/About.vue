@@ -28,13 +28,16 @@
         <div class="flex justify-between">
             <section class="w-full h-auto  border-r-2 border-amber-300 sm:hidden md:block">
                 <div class="overflow-hidden flex justify-end">
-                    <img src="./images/atepic3.jpg" alt="Church Picture"
-                    class="hover:scale-105 duration-300 h-100">
+                    <img src="./images/atepic4.jpg" alt="Church Picture"
+                    class="hover:scale-105 duration-300 w-[500px]">
                 </div>
             </section>
         <!--Acads & Experiences -->
             <section class=" ">
                 <div class="flex justify-end">
+                      <h2 class="pt-80 uppercase text-5xl [writing-mode:vertical-rl] font-thin text-amber-700 tracking-widest ">
+                        Experiences
+                    </h2>
                     <div class="p-10 transform  border-t-2 border-amber-700 md:w-[700px] hover:scale-95 transition-transform duration-300">
                         <h1 class="text-3xl text-gray-900 flex justify-between uppercase">Admin and HR Staff <i class="text-sm text-gray-500">June 2023 - Present</i></h1>
                         <i class="text-gray-500 text-xl">Paradigm Perspective</i>
@@ -70,14 +73,14 @@
                             <li>Conducted inspections and packing of finished products</li>
                         </ul>
                     </div>
-                    <h2 class=" uppercase text-5xl [writing-mode:vertical-rl] font-thin text-amber-300 tracking-widest pl-10 pr-5">
-                        Experiences <span class="pt-20 text-amber-700">Experiences</span>
+                    <h2 class=" uppercase text-5xl [writing-mode:vertical-rl] font-thin text-amber-300 tracking-widest  pr-5">
+                        Experiences 
                     </h2>
                     
                 </div>
                 <!-- Academics -->
                 <div class="flex justify-end pr-26 ">
-                    <h2 class=" uppercase border-t-2 ml-5 text-5xl [writing-mode:vertical-lr] font-thing text-amber-800 tracking-widest pr-10 pt-20">
+                    <h2 class=" uppercase font-thin border-t-2 ml-5 text-5xl [writing-mode:vertical-lr] font-thing text-amber-800 tracking-widest pr-10 pt-20">
                         Academics
                     </h2>
                     <div class="p-10 hover:bg-white/70  w-[700px] hover:scale-95 duration-300 leading-tight">

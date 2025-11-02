@@ -28,7 +28,7 @@ const closeMenu = () => {
           <a href="#Landing" class="line">HOME</a>
           <a href="#About" class="line">ABOUT</a>
           <a href="" class="line">CONTACT</a>
-          <a href="" class="line">EXPERIENCE</a>
+          <a href="./CV Baldano Melanie Busa.pdf" target="_blank" class="line">CV</a>
         </div>
          <button @click="toggleMenu" class="p-2 transition-colors rounded-full md:hidden hover:bg-white/10">
             <div class="flex flex-col items-center justify-center cursor-pointer w-6 h-6 pl-40 md:pl-0">
@@ -44,9 +44,8 @@ const closeMenu = () => {
     <nav class="p-6 space-y-0">
       <a href="#Landing" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">HOME</a>
       <a href="#About" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">ABOUT</a>
-      <a href="#SearchListings" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">LISTINGS</a>
-      <a href="#Services" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">SERVICES</a>
       <a href="#Contact" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">CONTACT</a>
+      <a href="./CV Baldano Melanie Busa.pdf" @click="closeMenu" class="block px-4 py-3 font-light text-gray-900 rounded-lg line ">CV</a>
     </nav>
   </div>
   </div>
@@ -54,7 +53,7 @@ const closeMenu = () => {
     </header>
   </div>
 
-  <div class="fixed flex-10  p-2 space-y-4  -translate-y-3.5 bottom-70 left-0 md:left-5 ~sm/md:~mr-12/60">
+  <div class="fixed p-2 space-y-4  -translate-y-3.5 bottom-70 left-0 md:left-5 ~sm/md:~mr-12/60">
     <!-- Email -->
     <a href="mailto:yourname@example.com" 
     target="_blank" 
