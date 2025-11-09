@@ -1,5 +1,7 @@
+<script setup>
+import Gallery from './Gallery.vue';
+</script>
 <template>
-    <body class="">
         <div>
             <h1 class="uppercase pl-37 md:text-7xl text-5xl font-bold tracking-widest text-amber-600">
                 ABOUT ME
@@ -20,17 +22,16 @@
                     success in a dynamic HR environment.
                 </p>
             </div>
-            <div class="flex justify-end overflow-hidden">
-                <img src="./images/flower.png"
-                class="hover:scale-200 duration-500">
-            </div>
+          <Gallery />
         </section>
         <div class="flex justify-between">
             <section class="w-full h-auto  border-r-2 border-amber-300 sm:hidden md:block">
-                <div class="overflow-hidden flex justify-end">
+                <!-- <div class="overflow-hidden flex justify-end">
                     <img src="./images/atepic4.jpg" alt="Church Picture"
                     class="hover:scale-105 duration-300 w-[500px]">
-                </div>
+                </div> -->
+                <Gallery />
+                
             </section>
         <!--Acads & Experiences -->
             <section class=" ">
@@ -100,5 +101,4 @@
                 </div>
             </section>
         </div>
-    </body>
 </template>

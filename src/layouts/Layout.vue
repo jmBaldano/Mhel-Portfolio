@@ -19,7 +19,7 @@ const closeMenu = () => {
             ><img
               src="../images/logo.png"
               alt="logo"
-              class="block mx-auto max-w-[150px] h-auto"
+              class="block mx-auto max-w-[100px] md:max-w-[150px] h-auto"
           /></a>
         </div>
         <div

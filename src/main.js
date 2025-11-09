@@ -3,6 +3,7 @@ import './style.css'
 import Root from './Root.vue'
 import Landing from './Landing.vue'
 import About from './About.vue'
+import Gallery from './Gallery.vue'
 
 
 createApp(Root).mount('#root')

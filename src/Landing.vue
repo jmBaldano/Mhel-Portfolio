@@ -8,15 +8,15 @@ import Layout from "./layouts/Layout.vue";
   <div class="flex items-center justify-between pt-25 pl-10">
     <!-- Desc-->
     <div class="md:w-2/3 w-1/2 pl-0 md:pl-30">
-      <h1 class="text-6xl font-bold mb-4 text-[#B87C4C]">
+      <h1 class="text-5xl font-bold mb-4 text-[#B87C4C]">
         HI! <br />
         I'M
         <span
           class="font-serif text-amber-900 typing-text border-text-amber-900 overflow-hidden border-r-2 whitespace-nowrap"
-          >Melanie Baldano</span
+          >Melanie </span
         >
       </h1>
-      <p class="text-[#B87C4C] leading-relaxed font-sans whitespace-pre-wrap w-full text-3xl">
+      <p class="text-[#B87C4C] leading-relaxed font-sans whitespace-pre-wrap w-full text-2xl md:text-3xl">
         Your <strong>Admin</strong> &amp; <strong>HR Specialist</strong>
       </p>
     </div>
