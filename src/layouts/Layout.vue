@@ -48,13 +48,13 @@ const closeMenu = () => {
     </nav>
   </div>
   </div>
-  <div data-aos="fade-right" data-aos-duration="3000" class="border-b border-amber-700 w-[1200px] mx-auto"></div>
+  <div data-aos="fade-right" data-aos-duration="3000" class="border-t border-amber-700 w-full mx-auto"></div>
     </header>
   </div>
 
   <div data-aos="fade-down" class="fixed p-2 space-y-4  -translate-y-3.5 bottom-70 left-0 md:left-5 ~sm/md:~mr-12/60">
     <!-- Email -->
-    <a href="mailto:yourname@example.com" 
+    <a href="mailto:melaniebaldano17@gmail.com" 
     target="_blank" 
     class="p-2 transition duration-300 rounded-full">
     <svg xmlns="http://www.w3.org/2000/svg" 
@@ -64,7 +64,7 @@ const closeMenu = () => {
     </svg>
   </a>
 
-    <a href="https://www.linkedin.com/in/john-mark-baldano-b2b69033b/" target="_blank" 
+    <a href="https://www.linkedin.com/in/melanie-baldano-81b887192/" target="_blank" 
        class="p-2 transition duration-300 rounded-full  ">
         <svg xmlns="http://www.w3.org/2000/svg" 
              class="socicons w-7 h-7 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
@@ -72,7 +72,7 @@ const closeMenu = () => {
         </svg>
     </a>
     <!-- IG -->
-    <a href="https://www.instagram.com/yourusername"
+    <a href="https://www.instagram.com/mhelbusa/"
    target="_blank"
    class="p-2 transition duration-300 rounded-full">
   <svg xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const closeMenu = () => {
 
 
     <!-- facebook  -->
-    <a href="https://www.facebook.com/yourusername" 
+    <a href="https://www.facebook.com/Ilove.MhelBusa" 
     target="_blank" 
     class="p-2 transition duration-300 rounded-full">
     <svg xmlns="http://www.w3.org/2000/svg" 
