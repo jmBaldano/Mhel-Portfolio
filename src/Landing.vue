@@ -8,7 +8,7 @@ import Layout from "./layouts/Layout.vue";
   <div class="grid grid-cols-12 items-center  pt-25 pl-10">
   <!-- <div class="flex items-center justify-between pt-25 pl-10"> -->
     <!-- Desc-->
-    <div class="md:w-2/3 w-full md:pl-30 col-span-8 ">
+    <div data-aos="fade-right" class="md:w-2/3 w-full md:pl-30 col-span-8 ">
       <h1 class="md:text-7xl text-5xl font-bold mb-4 text-[#B87C4C] w-full">
         HI!
         I'M
@@ -29,7 +29,7 @@ import Layout from "./layouts/Layout.vue";
     </div>
 
     <!--Image -->
-    <div class="col-span-4  flex justify-end">
+    <div data-aos="zoom-in-up" class="col-span-4  flex justify-end">
     <div class=" md:w-full w-full relative border-b-2 border-amber-300 ">
       <img
         src="./images/atedp.png"

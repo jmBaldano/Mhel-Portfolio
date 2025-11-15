@@ -13,7 +13,7 @@ const closeMenu = () => {
 <template>
   <div class="relative">
     <header class="absolute z-50 w-full px-10">
-      <nav class="flex items-center justify-between text-center">
+      <nav data-aos="fade-down"  data-aos-duration="2000" class="flex items-center justify-between text-center">
         <div class="">
           <a href="#Landing"
             ><img
@@ -23,11 +23,10 @@ const closeMenu = () => {
           /></a>
         </div>
         <div
-          class="uppercase space-x-20 pb-0 text-amber-600 font-thin px-20 hidden md:block"
-        >
+          class="uppercase space-x-20 pb-0 text-amber-600 font-thin px-20 hidden md:block">
           <a href="#Landing" class="line">HOME</a>
           <a href="#About" class="line">ABOUT</a>
-          <a href="" class="line">CONTACT</a>
+          <a href="#Contact" class="line">CONTACT</a>
           <a href="./CV Baldano Melanie Busa.pdf" target="_blank" class="line">CV</a>
         </div>
          <button @click="toggleMenu" class="p-2 transition-colors rounded-full md:hidden hover:bg-white/10">
@@ -49,11 +48,11 @@ const closeMenu = () => {
     </nav>
   </div>
   </div>
-  <div class="border-b border-amber-700 w-[1200px] mx-auto"></div>
+  <div data-aos="fade-right" data-aos-duration="3000" class="border-b border-amber-700 w-[1200px] mx-auto"></div>
     </header>
   </div>
 
-  <div class="fixed p-2 space-y-4  -translate-y-3.5 bottom-70 left-0 md:left-5 ~sm/md:~mr-12/60">
+  <div data-aos="fade-down" class="fixed p-2 space-y-4  -translate-y-3.5 bottom-70 left-0 md:left-5 ~sm/md:~mr-12/60">
     <!-- Email -->
     <a href="mailto:yourname@example.com" 
     target="_blank" 
@@ -94,6 +93,13 @@ const closeMenu = () => {
       <path d="M22.675 0h-21.35C.597 0 0 .598 0 1.333v21.333C0 23.402.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.764v2.312h3.587l-.467 3.622h-3.12V24h6.116C23.403 24 24 23.402 24 22.667V1.333C24 .598 23.403 0 22.675 0z"/>
     </svg>
   </a>
-
 </div>
+
+ <!-- <footer class="grid grid-col-12 place-items-center bg-gray-400">
+       
+        <div class="col-pan-12 py-2"> 
+          <p class="font-semibold">This website was created by John Mark Baldano. Built with Vue.js and Tailwind CSS, and deployed via GitHub Pages.
+            <span class="pl-5 font-bold">(Last Update: Nov 6, 2025)</span></p>
+        </div>
+        </footer> -->
 </template>
