@@ -8,7 +8,7 @@ import 'flowbite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/My-Portfolio/',
+  base: '/Mhel-Portfolio/',
   plugins: [
     vue(),
     vueDevTools(),
