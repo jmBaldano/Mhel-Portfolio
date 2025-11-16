@@ -32,8 +32,8 @@ import Footer from './layouts/Footer.vue';
                     <a href="https://www.facebook.com/Ilove.MhelBusa" target="_blank" class="socials">FACEBOOK</a>
                     <a href="https://www.linkedin.com/in/melanie-baldano-81b887192/" target="_blank" class="socials">LINKEDIN</a>
                     <a href="https://www.facebook.com/Ilove.MhelBusa" target="_blank" class="socials">FACEBOOK</a>
-                    <a href="https://www.linkedin.com/in/melanie-baldano-81b887192/" target="_blank" class="socials">LINKEDIN</a>
                     <a href="https://www.instagram.com/mhelbusa/" target="_blank" class="socials">INSTAGRAM</a>
+                    <a href="https://www.linkedin.com/in/melanie-baldano-81b887192/" target="_blank" class="socials">LINKEDIN</a>
                 </div>
             </section>
 
