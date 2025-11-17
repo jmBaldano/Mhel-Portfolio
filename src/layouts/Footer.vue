@@ -8,7 +8,7 @@
         </a>
         </div> -->
         <div class="col-pan-12 py-2 text-center"> 
-          <p class="font-semibold text-sm xl:text-sm">This website was created by John Mark Baldano. Built with Vue.js and Tailwind CSS, and deployed on Vercel.
+          <p class="font-semibold text-sm xl:text-sm">This website was created by <a href="https://jmbaldano.github.io/My-Portfolio/" class="cursor-pointer hover:scale-105 hover:text-gray-700">John Mark Baldano.</a> Built with Vue.js and Tailwind CSS, and deployed on Vercel.
             <span class=" font-bold">(Last Update: Nov 6, 2025)</span></p>
         </div>
         </footer>
